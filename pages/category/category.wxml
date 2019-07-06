@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <lz-menu categories="{{categories}}" class="menus" bind:menuclick="menuclick"/>
+ <lz-scroll goods="{{categoryData}}"/>
+</view>
+

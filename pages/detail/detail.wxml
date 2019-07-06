@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<l-swiper list="{{titleImg}}" class="swipers"/>
+<lz-baseInfos baseinfo="{{baseInfos}}"/>
+<lz-shopInfos shopInfos="{{shopInfos}}"/>
+<lz-goodsXq goodsXq="{{goodsXq}}"/>
+<lz-paramInfos paramInfos="{{paramInfos}}"/>
+<lz-goodsPj goodsPj="{{goodsPj}}"/>
+<!-- <view class="tuibox">
+  <view class="tuijian">商品推荐</view>
+  <l-goods goods="{{tuijian}}"/>
+</view> -->
+<lz-bottom-bar bind:addcart="onAddCart"/>

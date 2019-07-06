@@ -1,0 +1,24 @@
+/* pages/detail/childComps/lz-paramInfos/lz-paramInfos.wxss */
+.paramInfos{
+   padding: 40rpx 30rpx;
+  font-size: 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.row{
+   /* height: 84rpx; */
+  line-height: 84rpx; 
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+}
+.itemrow{
+  display: flex
+}
+.itemrow text,.row .key{
+  flex: 1;
+}
+.row .value{
+  flex: 3;
+  color: #ff5777
+}
+
+

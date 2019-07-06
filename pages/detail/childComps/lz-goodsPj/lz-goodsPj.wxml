@@ -1,0 +1,22 @@
+<!--pages/detail/childComps/lz-goodsPj/lz-goodsPj.wxml-->
+<view class="goodsPj">
+  <view class="pj-top">
+    <view>用户评价</view>
+    <view>更多 >></view>
+  </view>
+  <view class="pjList">
+    <block wx:for="{{goodsPj.list}}" wx:key="index">
+      <view class="user">
+      <image src="{{'http:'+item.user.avatar}}" mode="widthFix"/>
+      <text>{{item.user.uname}}</text>
+      </view>
+      <view class="pj">
+        <view class="text">{{item.content}}</view>
+        <view class="bot">
+          <text>{{item.created}}</text>
+          <text>{{item.style}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

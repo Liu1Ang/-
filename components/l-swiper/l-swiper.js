@@ -1,0 +1,24 @@
+// components/l-swiper/l-swiper.js
+Component({
+
+  properties: {
+    list:{
+      type:Array,
+      value:[]
+    }
+  },
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+
+  }
+})

@@ -1,0 +1,19 @@
+/* pages/home/childComps/lz-tuiJian/lz-tuiJian.wxss */
+.tuiJian{
+  margin-top: 40rpx;
+  display: flex;
+  padding-bottom: 40rpx;
+  border-bottom: 16rpx solid #eee;
+}
+.tui-item{
+  flex: 1;
+  text-align: center;
+}
+.tui-item image{
+  width: 86%;
+}
+.tui-item .text{
+  font-size: 28rpx;
+  margin-top: 14rpx;
+  color:#333333;
+}

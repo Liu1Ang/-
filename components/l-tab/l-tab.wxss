@@ -1,0 +1,18 @@
+/* components/l-tab/l-tab.wxss */
+.ltab{
+  height: 68rpx;
+  line-height:60rpx;
+  display: flex;
+  background: #fff
+}
+.tab-item{
+  flex: 1;
+  text-align: center;
+}
+.tab-item text{
+  padding: 6rpx 10rpx;
+}
+.ltab .active{
+ border-bottom: 8rpx #ff5777 solid;
+ color: #ff5777;
+}

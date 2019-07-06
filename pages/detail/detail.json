@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "l-swiper": "/components/l-swiper/l-swiper",
+    "l-goods": "/components/l-goods/l-goods",
+    "lz-baseInfos": "/pages/detail/childComps/lz-baseInfos/lz-baseInfos",
+    "lz-shopInfos": "/pages/detail/childComps/lz-shopInfos/lz-shopInfos",
+    "lz-goodsXq": "/pages/detail/childComps/lz-goodsXq/lz-goodsXq",
+    "lz-paramInfos": "/pages/detail/childComps/lz-paramInfos/lz-paramInfos",
+    "lz-goodsPj": "/pages/detail/childComps/lz-goodsPj/lz-goodsPj",
+    "lz-bottom-bar": "/pages/detail/childComps/lz-bottom-bar/lz-bottom-bar"
+  }
+}

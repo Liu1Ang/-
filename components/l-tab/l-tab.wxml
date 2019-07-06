@@ -1,0 +1,10 @@
+<!--components/l-tab/l-tab.wxml-->
+<view class="ltab">
+  <block wx:for="{{titles}}" wx:key="{{index}}">
+    <view class="tab-item"
+          bind:tap="itemClick"
+          data-index="{{index}}">
+     <text class="{{currIndex == index ? 'active' : ''}}">{{item}}</text>
+    </view>
+  </block>
+</view>

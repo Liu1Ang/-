@@ -1,0 +1,77 @@
+/* pages/detail/childComps/lz-shopInfos/lz-shopInfos.wxss */
+.shopInfos{
+  padding: 16rpx 16rpx 50rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.shopLogo{
+  margin-top: 30rpx;
+}
+.shopLogo image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 46rpx;
+  border: 1px solid rgba(200,200,200,.6);
+  vertical-align: middle;
+}
+.shopLogo text{
+  margin-left: 18rpx;
+  position: relative;
+  top: 6rpx;
+}
+.shopXq{
+  display: flex;
+  margin: 40rpx 0;
+  text-align: center;
+  color: #333;
+  font-size: 32rpx;
+  align-items: center
+}
+.xqLeft{
+  flex: 1;
+  display: flex;
+  border-right: 2px solid #eee;
+}
+.xqLeft .z{
+  flex: 1
+}
+.xqLeft .q{
+  flex: 1
+}
+.xqRight{
+  flex: 1
+}
+.xqLeft view view{
+  height: 46rpx;
+  line-height: 46rpx
+}
+.xqLeft .num{
+  font-size: 40rpx
+}
+.xqRight .score-item{
+  padding-left: 40rpx;
+  display: flex;
+  font-size: 30rpx
+}
+.xqRight .score-item text{
+  flex: 1;
+  text-align: center;
+}
+.xqRight .score-item .itemname{
+  flex: 2
+}
+.xqRight .score-item .itemscore{
+  color: greenyellow;
+}
+.xqRight .score-item .red{
+  color: #ff5777
+}
+.shopBtn{
+  display: block;
+  text-align: center
+}
+
+
+
+
+
+

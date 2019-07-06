@@ -1,0 +1,43 @@
+/* pages/detail/childComps/lz-goodsXq/lz-goodsXq.wxss */
+.goodxq{
+  border-bottom: 12rpx solid #f2f2f2;
+  font-size: 32rpx;
+}
+.desc{
+  position: relative;
+  padding: 10rpx 30rpx;
+}
+.desc .line{
+  width: 180rpx;
+  height: 1px;
+  background: #666;
+  margin: 30rpx 0;
+  position: relative;
+}
+.desc .end{
+  float: right
+}
+.desc .start::after,.desc .end::after{
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: #666;
+  position: absolute
+}
+.desc .start::after{
+  top: -5px;
+  left: 0
+}
+.desc .end::after{
+  top: -5px;
+  right: 0
+}
+.goodxq .key{
+  padding: 40rpx 30rpx;
+  font-size: 36rpx;
+}
+.imgs image{
+  width: 100%
+}
+
+

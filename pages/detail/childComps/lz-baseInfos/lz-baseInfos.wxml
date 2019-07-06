@@ -1,0 +1,14 @@
+<!--pages/detail/childComps/lz-baseInfos/lz-baseInfos.wxml-->
+<view class="baseinfo">
+  <view class="title">{{baseinfo.title}}</view>
+  <view class="pricebox">
+    <text class="newPrice">{{baseinfo.price}}</text>
+    <text class="oldPrice">{{baseinfo.oldPrice}}</text>
+    <text class="discountDesc">{{baseinfo.discountDesc}}</text>
+  </view>
+  <view class="columns">
+    <block wx:for="{{baseinfo.columns}}" wx:key="{{index}}">
+    <text class="columns-item">{{item}}</text>
+    </block>
+  </view>
+</view>

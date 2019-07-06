@@ -1,0 +1,9 @@
+<!--pages/home/childComps/lz-tuiJian/lz-tuiJian.wxml-->
+<view class="tuiJian">
+  <block wx:for="{{recomments}}" wx:key="{{index}}">
+    <view class="tui-item">
+      <image src="{{item.image}}" mode="widthFix" bindload="isLoading"/>
+      <view class="text">{{item.title}}</view>
+    </view>
+  </block>
+</view>

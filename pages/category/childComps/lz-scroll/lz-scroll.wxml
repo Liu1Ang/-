@@ -1,0 +1,4 @@
+<!--pages/category/childComps/lz-scroll/lz-scroll.wxml-->
+ <scroll-view class="scrolls" scroll-y>
+   <l-goods goods="{{goods}}"/>
+</scroll-view>

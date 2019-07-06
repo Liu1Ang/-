@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "l-swiper":"/components/l-swiper/l-swiper",
+    "l-tab":"/components/l-tab/l-tab",
+    "l-goods":"/components/l-goods/l-goods",
+    "l-back":"/components/l-back/l-back",
+    "lz-tuiJian":"./childComps/lz-tuiJian/lz-tuiJian"
+  },
+  "navigationBarTitleText": "购物街"
+}

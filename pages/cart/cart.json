@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "lz-cart-list": "./childComps/lz-cart-list/lz-cart-list"
+  }
+}

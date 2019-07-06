@@ -1,0 +1,8 @@
+/* pages/category/childComps/lz-scroll/lz-scroll.wxss */
+.scrolls{
+  height: 100vh;
+  overflow-y:scroll 
+}
+.scrolls l-goods{
+  width: 100%
+}

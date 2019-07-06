@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "lz-menu":"/pages/category/childComps/lz-menu/lz-menu",
+    "lz-scroll":"/pages/category/childComps/lz-scroll/lz-scroll"
+  }
+}

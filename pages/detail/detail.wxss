@@ -1,0 +1,10 @@
+/* pages/detail/detail.wxss */
+.swipers swiper{
+  height: 800rpx
+}
+.tuibox{
+  margin: 30rpx auto
+}
+.tuijian{
+  padding: 0 30rpx
+}

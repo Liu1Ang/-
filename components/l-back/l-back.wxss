@@ -1,0 +1,12 @@
+/* components/l-back/l-back.wxss */
+.backTop{
+  position: fixed;
+  width: 100rpx;
+  height: 100rpx;
+  bottom: 60rpx;
+  right: 40rpx;
+  overflow: hidden;
+}
+.backTop image{
+  width: 100%
+}

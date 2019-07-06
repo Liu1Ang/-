@@ -1,0 +1,4 @@
+<!--components/l-back/l-back.wxml-->
+<view class="backTop" bindtap="handbackTop">
+  <image src="/assets/common/top.png" mode="widthFix"/>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/detail/childComps/lz-goodsXq/lz-goodsXq.wxml-->
+<view class="goodxq">
+  <view class="desc">
+    <view class="start line"></view>
+    <view class="goodsdesc">{{goodsXq.desc}}</view>
+    <view class="end line"></view>
+  </view>
+  <view class="key">{{goodsXq.detailImage[0].key}}</view>
+  <view class="imgs">
+    <block wx:for="{{goodsXq.detailImage[0].list}}" wx:key="index">
+      <image src="{{'http:'+item}}" mode="widthFix" lazy-load/>
+    </block>
+  </view>
+</view>

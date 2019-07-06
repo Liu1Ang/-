@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<l-swiper list="{{banners}}"/>
+
+<!-- 推荐数据 -->
+<lz-tuiJian recomments="{{recomments}}" bind:isImgLoad="handisImgLoad"/>
+
+<!-- 本周流行 -->
+<view class="popular">
+  <image src="/assets/home/popular_bg.jpg" mode="widthFix"/>
+</view>
+
+<!-- 选项卡 -->
+<l-tab titles="{{titles}}" bind:tabclick="handTabclick" id="tab-control" class="{{isTab ? 'fixed' : ''}}"/>
+<l-tab titles="{{titles}}" wx:if="{{isTab}}"/>
+
+<!-- 商品展示 -->
+<l-goods goods="{{goods[currentType].list}}"/>
+
+<!-- 返回顶部 -->
+<l-back wx:if="{{isBackTop}}"/>
+
+

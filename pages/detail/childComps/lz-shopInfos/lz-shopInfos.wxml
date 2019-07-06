@@ -1,0 +1,32 @@
+<!--pages/detail/childComps/lz-shopInfos/lz-shopInfos.wxml-->
+<view class="shopInfos">
+  <view class="shopLogo">
+    <image src="{{'http:'+shopInfos.shopLogo}}" mode="widthFix"/>
+    <text>{{shopInfos.name}}</text>
+  </view>
+  <view class="shopXq">
+    <view class="xqLeft">
+      <view class="z">
+         <view class="num">{{shopInfos.cSells}}</view>
+        <view class="zong">总销量</view>
+      </view>
+     <view class="q">
+       <view class="num">{{shopInfos.cGoods}}</view>
+      <view class="quan">全部宝贝</view>
+     </view>
+    </view>
+    <view class="xqRight">
+      <block wx:for="{{shopInfos.score}}" wx:key="index">
+        <view class="score-item">
+          <text class="itemname">{{item.name}}</text>
+          <text class="itemscore {{item.isBetter ? 'red' : ''}}">{{item.score}}</text>
+          <text wx:if="{{item.score < 5}}">低</text>
+          <text wx:else class="{{item.isBetter ? 'red' : ''}}">高</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="shopBtn">
+   <button size="mini" disabled>进店逛逛</button>
+  </view>
+</view>
