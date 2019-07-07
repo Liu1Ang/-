@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "lz-header": "./childComps/lz-header/lz-header",
+    "lz-info": "./childComps/lz-info/lz-info",
+    "lz-list-view": "./childComps/lz-list-view/lz-list-view"
+  },
+  "navigationBarTitleText": "我的信息"
 }

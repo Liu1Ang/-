@@ -2,7 +2,9 @@
 .cart {
   height: 100%;
 }
-
+.hr{
+  height: 88rpx;
+}
 .cart-list {
   height: calc(100% - 88rpx);
 }
@@ -14,7 +16,6 @@
   display: flex;
   align-items: center;
   font-size: 28rpx;
-
   position: fixed;
   bottom: 0;
   left: 0;

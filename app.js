@@ -46,7 +46,7 @@ App({
         }
       },
       fail:(err)=>{
-        console.log(err)
+        // console.log(err)
       }
     })
   },
@@ -55,7 +55,7 @@ App({
     wx.login({
       success: (res) => {
         //  1.获取code
-        console.log(res);
+        // console.log(res);
         const code = res.code;
         //  2、向自己服务器发送请求
         wx.request({
@@ -65,7 +65,7 @@ App({
             code
           },
           success: (res) => {
-            console.log(res);
+            // console.log(res);
             const token = res.data.token;
             this.globalData.token = token;
             // 本地存储

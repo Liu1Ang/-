@@ -1,2 +1,7 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class='profile'>
+  <lz-header/>
+  <lz-info/>
+  <lz-list-view infos="{{orderList}}"/>
+  <lz-list-view infos="{{serviceList}}"/>
+</view>

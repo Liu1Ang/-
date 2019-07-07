@@ -12,7 +12,7 @@ Page({
   },
   _getCategorys(){
     getCategory().then(res=>{
-      console.log(res);
+      // console.log(res);
       const data = res.data.data;
       const list = data.category.list;
       const categorie = [];
@@ -27,10 +27,10 @@ Page({
   },
   _getCategoryDetails(){
     const index = this.data.currentIndex;
-    console.log(index);
+    // console.log(index);
     const miniWall = this.data.categories[index].miniWallkey;
     getCategoryDetail(miniWall, 'pop').then(res=>{
-      console.log(res);
+      // console.log(res);
       const list = res.data;
       const arr = [];
       arr.push(...list);

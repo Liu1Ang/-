@@ -1,0 +1,8 @@
+var price = {
+  priceto:function(value){
+    return value.toFixed(2)
+  }
+}
+module.exports = {
+  price: price.priceto
+}

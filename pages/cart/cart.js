@@ -26,8 +26,6 @@ Page({
 
     // 3.设置修改某个商品的回调
     app.changeGoodsState = (index, goods) => {
-      console.log(index)
-      console.log(goods)
       // 1.修改某一项的选中状态
       this.setData({
         [`cartList[${index}]`]: goods

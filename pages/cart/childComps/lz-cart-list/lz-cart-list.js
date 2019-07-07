@@ -34,7 +34,7 @@ Component({
       goods.checked = !goods.checked;
       const index = e.currentTarget.dataset.index;
       
-      console.log(index)
+      // console.log(index)
       app.changeGoodsState(index, goods)
     }
   }

@@ -71,7 +71,7 @@ Page({
   handisImgLoad(){
     wx.createSelectorQuery().select('#tab-control').boundingClientRect(rect =>{
       this.data.tabScrollTop = rect.top;
-      console.log(rect)
+      // console.log(rect)
     }).exec()
   },
   // 滚动事件

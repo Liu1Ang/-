@@ -2,5 +2,6 @@
   "usingComponents": {
     "lz-menu":"/pages/category/childComps/lz-menu/lz-menu",
     "lz-scroll":"/pages/category/childComps/lz-scroll/lz-scroll"
-  }
+  },
+  "navigationBarTitleText": "商品分类"
 }

@@ -25,7 +25,7 @@ Page({
   // 请求商品
   _getGoodsLists(){
     getGoodsList(this.data.iid).then(res => {
-      console.log(res);
+      // console.log(res);
       const data = res.data.result;
       const titleImg = data.itemInfo.topImages;
       const baseInfos = baseInfo(data.skuInfo.title, data.itemInfo, data.columns);
